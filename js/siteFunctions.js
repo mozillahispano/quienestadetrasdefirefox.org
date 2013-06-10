@@ -10,7 +10,7 @@ function redirect(){
 	if (uagent.search(deviceipad) > -1) apple = 'ipad';
 	if (uagent.search(android) > -1) apple = 'android';
 	
-	if (apple == 'iphone' || apple == 'ipad' || apple == 'android' ) window.location.href="mobile/";
+	if (apple == 'iphone' || apple == 'ipad' || apple == 'android' ) window.location.href="mobile.html";
 }
 
 
