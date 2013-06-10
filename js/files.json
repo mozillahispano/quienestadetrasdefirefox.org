@@ -1,0 +1,111 @@
+{
+    "files": [
+	   {
+            "source": "img/fox_face.png",
+            "type": "IMAGE",
+            "size": 10000
+       },
+       {
+            "source": "img/malla.png",
+            "type": "SCRIPT",
+            "size": 10000
+        },
+        {
+            "source": "img/mozilla_header.png",
+            "type": "IMAGE",
+            "size": 270.336
+        },
+        {
+            "source": "img/download_firefox.png",
+            "type": "IMAGE",
+            "size": 5000
+        },
+        {
+            "source": "img/btn_play.png",
+            "type": "IMAGE",
+            "size": 10000
+        },
+        {
+            "source": "img/bg_videoInfo.png",
+            "type": "IMAGE",
+            "size": 1024 
+        },
+        {
+            "source": "img/fox_ear_l.png",
+            "type": "IMAGE",
+            "size": 167.936
+        },
+        {
+            "source": "img/fox_ear_r.png",
+            "type": "IMAGE",
+            "size": 331.776
+        },
+        {
+            "source": "img/fox_body1.png",
+            "type": "IMAGE",
+            "size": 7000
+        },
+        {
+            "source": "img/fox_body2.png",
+            "type": "IMAGE",
+            "size": 7000
+        },
+        {
+            "source": "img/fox_body3.png",
+            "type": "IMAGE",
+            "size": 7000
+        },
+        {
+            "source": "img/fox_tail.png",
+            "type": "IMAGE",
+            "size": 7000
+        },
+		{
+            "source": "img/video1.png",
+            "type": "IMAGE",
+            "size": 512000
+        },
+		{
+            "source": "img/video2.png",
+            "type": "IMAGE",
+            "size": 512000
+        },
+		{
+            "source": "img/video3.png",
+            "type": "IMAGE",
+            "size": 512000
+        },
+		{
+            "source": "img/video4.png",
+            "type": "IMAGE",
+            "size": 512000
+        },
+		{
+            "source": "img/video5.png",
+            "type": "IMAGE",
+            "size": 512000
+        },
+		{
+            "source": "img/video6.png",
+            "type": "IMAGE",
+            "size": 512000
+        },
+        {
+            "type": "VIDEO",
+            "sources": {
+                "webm": {
+                    "source": "videos/video_demo_firefox.webm",
+                    "size": 94371840
+                },
+                "ogg": {
+                    "source": "videos/video_demo_firefox.ogv",
+                    "size": 94371840
+                },
+                "mp4": {
+                    "source": "videos/video_demo_firefox.mp4",
+                    "size": 94371840
+                }
+            }
+        }
+    ]
+}
