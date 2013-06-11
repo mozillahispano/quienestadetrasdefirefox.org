@@ -3,13 +3,11 @@
 
 function ShareOnFB(){  
 	
-	var url = "";
-	var mens = "";
-	url = 'www.quienestadetrasdefirefox.org';
-	mens = "Firefox está diseñado para ti, por gente como tú. Nunca comercia con tu información o hace seguimientos. Esta experiencia la servimos tanto para tu escritorio como en el móvil. Conócenos en http://mzl.la/DetrasdeFirefox y descarga Firefox para Android en http://mzl.la/FirefoxparaAndroid.";
+	var url = "http://www.quienestadetrasdefirefox.org";
+	var mens = "Firefox está diseñado para ti, por gente como tú. Nunca comercia con tu información o hace seguimientos. Esta experiencia la servimos tanto para tu escritorio como en el móvil. Conócenos en http://mzl.la/DetrasdeFirefox y descarga Firefox para Android en http://mzl.la/FirefoxparaAndroid.";
 	
 	var title = "¿Quién está detrás de Firefox?";	
-	var imgShare = 'http://www.desarrollod6.com/firefox/img/img_share.jpg';
+	var imgShare = 'http://www.quienestadetrasdefirefox.org/img/img_share.jpg';
 	
 	var deviceiphone = "iphone";
 	var deviceipad = "ipad";
@@ -88,12 +86,11 @@ function ShareOnTWTail(){
 
 function shareVideoFB(video, titulo, msg){  
 	
-	var url = "";
+	var url = 'http://www.quienestadetrasdefirefox.org';
 	var mens = msg;
-	var url = 'www.quienestadetrasdefirefox.org';
 	//var title = "¿Quién está detrás de Firefox?";
 	var title = titulo;
-	var imgShare = 'http://www.desarrollod6.com/firefox/img/img_share.jpg';	
+	var imgShare = 'http://www.quienestadetrasdefirefox.org/img/img_share.jpg';	
 	/*
 	mens = "¿Nunca te has preguntado que hay detrás de Firefox? Firefox está diseñado para ti, por gente como tú. Nunca comercia con tu información o hace seguimientos. Esta experiencia la servimos tanto para tu escritorio como en el móvil. Conócenos en http://mzl.la/DetrasdeFirefox y descarga Firefox para Android en http://mzl.la/FirefoxparaAndroid.";
 	*/
