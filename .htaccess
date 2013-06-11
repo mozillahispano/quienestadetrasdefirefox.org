@@ -1,4 +1,9 @@
 RewriteEngine on
+
+# Obligamos no uso de www
+RewriteCond %{HTTP_HOST} ^www.quienestadetrasdefirefox\.org$ [NC]
+RewriteRule ^(.*)$ http://quienestadetrasdefirefox.org/$1 [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^([^/]+)/$ $1.html 
