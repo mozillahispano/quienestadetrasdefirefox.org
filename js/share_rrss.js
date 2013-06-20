@@ -20,11 +20,11 @@ function ShareOnFB(){
 	if (apple == 'iphone' || apple == 'android' )
 	{
 		//http://m.facebook.com/sharer.php?u=<urlencoded url>t=<urlencoded title>
-		window.open('http://m.facebook.com/sharer.php?u='+encodeURI(url)+'&t='+encodeURI(title),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1200, height=600, top=85, left=140');
+		window.open('http://m.facebook.com/sharer.php?u='+encodeURI(url)+'&t='+encodeURI(title),'mywindow'+getRand(),'');
 	}
 	else
 	{
-		window.open('http://www.facebook.com/sharer.php?s=100&p[title]='+encodeURI(title)+'&p[summary]='+encodeURI(mens)+'&p[url]='+url+'&p[images][0]='+imgShare,'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1200, height=600, top=85, left=140');
+		window.open('http://www.facebook.com/sharer.php?s=100&p[title]='+encodeURI(title)+'&p[summary]='+encodeURI(mens)+'&p[url]='+url+'&p[images][0]='+imgShare,'mywindow'+getRand(),'');
 	}
 	
 	
@@ -47,12 +47,12 @@ function ShareOnTW(){
 	if (uagent.search(android) > -1) apple = 'android';
 	if (apple == 'iphone' || apple == 'android' )
 	{
-		window.open('http://mobile.twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
+		window.open('http://mobile.twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'');
 	}
 	else
 	{
 		//window.open('http://twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
-		window.open('https://twitter.com/intent/tweet?text='+encodeURI(status)+'&hashtags=firefox','mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
+		window.open('https://twitter.com/intent/tweet?text='+encodeURI(status)+'&hashtags=firefox','mywindow'+getRand(),'');
 	}
 }  
 
@@ -75,12 +75,12 @@ function ShareOnTWTail(){
 	if (uagent.search(android) > -1) apple = 'android';
 	if (apple == 'iphone' || apple == 'android' )
 	{
-		window.open('http://mobile.twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
+		window.open('http://mobile.twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'');
 	}
 	else
 	{
 		//window.open('http://twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
-		window.open('https://twitter.com/intent/tweet?text='+encodeURI(status)+'&hashtags=firefox','mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
+		window.open('https://twitter.com/intent/tweet?text='+encodeURI(status)+'&hashtags=firefox','mywindow'+getRand(),'');
 	}
 }  
 
@@ -106,11 +106,11 @@ function shareVideoFB(video, titulo, msg){
 	if (apple == 'iphone' || apple == 'android' )
 	{
 		//http://m.facebook.com/sharer.php?u=<urlencoded url>t=<urlencoded title>
-		window.open('http://m.facebook.com/sharer.php?u='+encodeURI(url)+'&t='+encodeURI(title),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1200, height=600, top=85, left=140');
+		window.open('http://m.facebook.com/sharer.php?u='+encodeURI(url)+'&t='+encodeURI(title),'mywindow'+getRand(),'');
 	}
 	else
 	{
-		window.open('http://www.facebook.com/sharer.php?s=100&p[title]='+encodeURI(title)+'&p[summary]='+encodeURI(mens)+'&p[url]='+url+'&p[images][0]='+imgShare,'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1200, height=600, top=85, left=140');
+		window.open('http://www.facebook.com/sharer.php?s=100&p[title]='+encodeURI(title)+'&p[summary]='+encodeURI(mens)+'&p[url]='+url+'&p[images][0]='+imgShare,'mywindow'+getRand(),'');
 	}
 	
 	//TRACK ANALYTICS EVENT
@@ -135,12 +135,12 @@ function shareVideoTW(video, statustw){
 	if (uagent.search(android) > -1) apple = 'android';
 	if (apple == 'iphone' || apple == 'android' )
 	{
-		window.open('http://mobile.twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
+		window.open('http://mobile.twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'');
 	}
 	else
 	{
 		//window.open('http://twitter.com/home?status='+encodeURI(status),'mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
-		window.open('https://twitter.com/intent/tweet?text='+encodeURI(status)+'&hashtags=','mywindow'+getRand(),'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=500, top=85, left=140');
+		window.open('https://twitter.com/intent/tweet?text='+encodeURI(status)+'&hashtags=','mywindow'+getRand(),'');
 	}
 	
 	//TRACK ANALYTICS EVENT

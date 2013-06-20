@@ -67,7 +67,7 @@ $(document).ready(function() {
 		//TRACK ANALYTICS EVENT
 		_gaq.push(['_trackEvent', 'COLABORA LINK OREJA', 'Colabora', 'Colabora Link Oreja']);
 		
-		window.open("https://www.mozilla-hispano.org/documentacion/Colabora", "COLABORA", "width=1200,height=800,location=no");
+		window.open("https://www.mozilla-hispano.org/documentacion/Colabora", "COLABORA", "");
 		return false;
 	});	
 	
