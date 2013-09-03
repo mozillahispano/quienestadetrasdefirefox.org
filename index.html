@@ -271,8 +271,13 @@
 
 <script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-41627038-1']); // This is my account number, I have added the zeros in this editor
-  _gaq.push(['_trackPageview']);
+  // Add my account ID and Mozilla web property ID
+  _gaq.push(
+  		['_setAccount', 'UA-41627038-1'],
+  		['_trackPageview'],
+		['_setAccount', 'UA-35433268-36'],
+  		['_trackPageview']
+  		);
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
