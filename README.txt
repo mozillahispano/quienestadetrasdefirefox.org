@@ -26,7 +26,7 @@ Para cargar los datos de los miembros de FF de forma dinámica desde el json se 
 
 ----- .htaccess -----
 
-Contiene una regla para la redirección a mobile.hmtl, que elimina la extensión del archivo.
+Contiene una regla para la redirección a mobile.html, que elimina la extensión del archivo.
 
 ----- Analytics -----
 
